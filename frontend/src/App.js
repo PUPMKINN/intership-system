@@ -1,12 +1,20 @@
-import React from "react";
-import Home from "./pages/home/Home"; // Đường dẫn tới file Home.jsx
-
+import "./App.css"
+import Header from "./components/common/header/Header"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Footer from "./components/common/footer/Footer"
+import Home from "./components/home/Home"
 function App() {
   return (
-    <div className="App">
-      <Home />
-    </div>
-  );
+    <>
+      <Router>
+        <Header />
+        <Routes>
+          <Route exact path='/' component={Home} />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
+  )
 }
 
-export default App;
+export default App
