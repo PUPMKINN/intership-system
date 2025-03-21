@@ -13,30 +13,30 @@ const Header = () => {
         <nav className='flexSB'>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
             <li>
-              <Link to='/'>Home</Link>
+              <Link to='/'>Trang chủ</Link>
             </li>
             <li>
-              <Link to='/courses'>All Courses</Link>
+              <Link to='/courses'>Tuyển sinh </Link>
             </li>
             <li>
-              <Link to='/about'>About</Link>
+              <Link to='/about'>Đào tạo </Link>
             </li>
             <li>
-              <Link to='/team'>Team</Link>
+              <Link to='/team'>Nghiên cứu </Link>
             </li>
             <li>
-              <Link to='/pricing'>Pricing</Link>
+              <Link to='/pricing'>Hợp tác</Link>
             </li>
             <li>
-              <Link to='/journal'>Journal</Link>
+              <Link to='/journal'>Thông tin</Link>
             </li>
             <li>
-              <Link to='/contact'>Contact</Link>
+              <Link to='/contact'>Liên hệ</Link>
             </li>
           </ul>
-          <div className='start'>
+          {/* <div className='start'>
             <div className='button'>GET CERTIFICATE</div>
-          </div>
+          </div> */}
           <button className='toggle' onClick={() => setClick(!click)}>
             {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
           </button>
