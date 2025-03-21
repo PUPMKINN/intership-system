@@ -133,3 +133,24 @@ footer .last i {
 .legal i {
   color: #1167c3;
 }
+
+.box.last {
+  position: relative;
+  /* Đảm bảo không bị đè */
+  padding: 20px;
+  /* Thêm khoảng cách bên trong */
+  margin-top: 20px;
+  /* Thêm khoảng cách bên ngoài nếu cần */
+  /* Màu nền để dễ nhìn */
+  border-radius: 5px;
+  /* Bo góc */
+}
+
+.box .last l1 {
+  display: block;
+  /* Đảm bảo là khối để căn chỉnh */
+  text-align: right;
+  /* Căn chữ sang bên phải */
+  margin-left: 15px;
+  /* Đẩy chữ sang phải */
+}
