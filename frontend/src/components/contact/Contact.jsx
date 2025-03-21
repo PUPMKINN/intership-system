@@ -15,15 +15,15 @@ const Contact = () => {
             <div className='items grid2'>
               <div className='box'>
                 <h4>ADDRESS:</h4>
-                <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+                <p>Cơ sở 1: 227 Nguyễn Văn Cừ, Phường 4, Quận 5, Thành phố Hồ Chí Minh</p>
               </div>
               <div className='box'>
                 <h4>EMAIL:</h4>
-                <p> info@yoursite.com</p>
+                <p>info@hcmus.edu.vn</p>
               </div>
               <div className='box'>
                 <h4>PHONE:</h4>
-                <p> + 1235 2355 98</p>
+                <p>(028) 62884499</p>
               </div>
             </div>
 
@@ -38,9 +38,6 @@ const Contact = () => {
               </textarea>
               <button className='primary-btn'>SEND MESSAGE</button>
             </form>
-
-            <h3>Follow us here</h3>
-            <span>FACEBOOK TWITTER INSTAGRAM DRIBBBLE</span>
           </div>
         </div>
       </section>

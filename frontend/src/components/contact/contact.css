@@ -39,17 +39,15 @@ form .flexSB input:nth-child(1) {
   margin-right: 10px;
 }
 
-.contacts h3 {
-  margin-top: 20px;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-
 .contacts span {
   color: #1167c3;
   font-weight: 600;
   font-size: 15px;
   word-spacing: 5px;
+}
+
+.grid2 {
+  display: block;
 }
 
 @media screen and (max-width: 768px) {

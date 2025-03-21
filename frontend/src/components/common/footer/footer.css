@@ -146,11 +146,8 @@ footer .last i {
   /* Bo góc */
 }
 
-.box .last l1 {
+.box.last l1 {
   display: block;
-  /* Đảm bảo là khối để căn chỉnh */
   text-align: right;
-  /* Căn chữ sang bên phải */
-  margin-left: 15px;
-  /* Đẩy chữ sang phải */
+  margin-left: 33px;
 }
