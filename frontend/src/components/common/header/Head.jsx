@@ -5,6 +5,7 @@ const Head = () => {
     <>
       <section className='head'>
         <div className='container flexSB'>
+
           <div className='logo'>
             <h1>HCMUS</h1>
             <span>HỆ THỐNG HỖ TRỢ SINH VIÊN NỘP HỒ SƠ THỰC TẬP</span>
