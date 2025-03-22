@@ -16,16 +16,16 @@ const Header = () => {
               <Link to='/'>Trang chủ</Link>
             </li>
             <li>
-              <Link to='/courses'>Tuyển sinh </Link>
+              <Link to='/courses'>Đăng ký thực tập </Link>
             </li>
             <li>
-              <Link to='/about'>Đào tạo </Link>
+              <Link to='/about'>Thông tin ứng dụng </Link>
             </li>
             <li>
-              <Link to='/team'>Nghiên cứu </Link>
+              <Link to='/team'>Sinh viên </Link>
             </li>
             <li>
-              <Link to='/pricing'>Hợp tác</Link>
+              <Link to=''>Hợp tác</Link>
             </li>
             <li>
               <Link to='/journal'>Thông tin</Link>

@@ -1,6 +1,6 @@
 import React from "react"
 import "./courses.css"
-import { coursesCard } from "../../dummydata"
+import { coursesCard } from "../../datatest"
 
 const CoursesCard = () => {
   return (
@@ -17,14 +17,14 @@ const CoursesCard = () => {
                 </div>
                 <div className='text'>
                   <h1>{val.coursesName}</h1>
-                  <div className='rate'>
+                  {/* <div className='rate'>
                     <i className='fa fa-star'></i>
                     <i className='fa fa-star'></i>
                     <i className='fa fa-star'></i>
                     <i className='fa fa-star'></i>
                     <i className='fa fa-star'></i>
                     <label htmlFor=''>(5.0)</label>
-                  </div>
+                  </div> */}
                   <div className='details'>
                     {val.courTeacher.map((details) => (
                       <>
@@ -42,12 +42,12 @@ const CoursesCard = () => {
                   </div>
                 </div>
               </div>
-              <div className='price'>
+              <div className='totalstudents'>
                 <h3>
-                  {val.priceAll} / {val.pricePer}
+                  {val.totalPer} / {val.totalAll}
                 </h3>
               </div>
-              <button className='outline-btn'>ENROLL NOW !</button>
+              <button className='outline-btn'>Đăng ký thực tập !</button>
             </div>
           ))}
         </div>

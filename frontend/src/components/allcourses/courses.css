@@ -33,7 +33,7 @@
   line-height: 45px;
 }
 
-.coursesCard .rate {
+/* .coursesCard .rate {
   margin: 20px 0;
   color: #1167c3;
 }
@@ -41,7 +41,7 @@
 .coursesCard .rate i {
   font-size: 13px;
   margin-right: 5px;
-}
+} */
 
 .coursesCard .details .dimg img {
   width: 50px;
@@ -62,7 +62,7 @@
   font-size: 14px;
 }
 
-.coursesCard .price {
+.coursesCard .totalstudents {
   margin: 30px 0;
   background-color: #f8f8f8;
   padding: 10px;
@@ -73,39 +73,39 @@
   color: #1167c3;
 }
 
-/*-------------online---------*/
-.online {
+/*-------------intern---------*/
+.intern {
   text-align: center;
 }
 
-.online .box {
+.intern .box {
   box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
   background-color: #fff;
   padding: 30px 20px;
   transition: 0.5s;
 }
 
-.online .img {
+.intern .img {
   width: 80px;
   height: 80px;
   margin: auto;
   position: relative;
 }
 
-.online img {
+.intern img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.online h1 {
+.intern h1 {
   font-weight: 500;
   font-size: 20px;
   margin: 20px 0;
   line-height: 30px;
 }
 
-.online span {
+.intern span {
   background-color: #f8f8f8;
   padding: 5px 20px;
   font-weight: 500;
@@ -114,26 +114,26 @@
   border-radius: 5px;
 }
 
-.online .box .show {
+.intern .box .show {
   opacity: 0;
 }
 
-.online .box:hover {
+.intern .box:hover {
   background-color: #1167c3;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.online .box:hover .show {
+.intern .box:hover .show {
   opacity: 1;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.online .box:hover h1 {
+.intern .box:hover h1 {
   color: #fff;
 }
 
-/*-------------online---------*/
+/*-------------intern---------*/
 @media screen and (max-width: 768px) {}

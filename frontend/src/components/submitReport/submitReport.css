@@ -1,0 +1,127 @@
+.submit-report {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.report-container {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.report-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.report-header div {
+    text-align: center;
+}
+
+.report-header p {
+    font-size: 14px;
+    color: #666;
+}
+
+.report-header h3 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status.pending {
+    color: red;
+}
+
+.status.success {
+    color: green;
+}
+
+.status.failed {
+    color: red;
+}
+
+.upload-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.upload-box {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.upload-icon {
+    font-size: 40px;
+    color: #666;
+}
+
+.upload-instruction {
+    font-size: 14px;
+    color: #666;
+}
+
+.upload-btn {
+    background: #1167c3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-btn:hover {
+    background: #0d5ba6;
+}
+
+.rules-section {
+    margin: 20px 0;
+}
+
+.rules-section h3 {
+    margin-bottom: 10px;
+}
+
+.rules-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rules-section li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.history-section {
+    margin-top: 20px;
+}
+
+.history-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-section th,
+.history-section td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.history-section th {
+    background: #f4f4f4;
+}
+
+.history-section .status {
+    font-weight: bold;
+}

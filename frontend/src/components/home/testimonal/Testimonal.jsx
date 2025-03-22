@@ -1,5 +1,5 @@
 import React from "react"
-import { testimonal } from "../../../dummydata"
+import { testimonal } from "../../../datatest"
 import Heading from "../../common/heading/Heading"
 import "./style.css"
 
@@ -8,7 +8,7 @@ const Testimonal = () => {
     <>
       <section className='testimonal padding'>
         <div className='container'>
-          <Heading subtitle='TESTIMONIAL' title='Our Successful Students' />
+          <Heading subtitle='Đánh giá doanh nghiệp' title='Our Successful Students' />
 
           <div className='content grid2'>
             {testimonal.map((val) => (

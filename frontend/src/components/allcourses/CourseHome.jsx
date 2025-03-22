@@ -1,14 +1,14 @@
 import React from "react"
 import Back from "../common/back/Back"
 import CoursesCard from "./CoursesCard"
-import OnlineCourses from "./OnlineCourses"
+import Intern from "./Intern"
 
 const CourseHome = () => {
   return (
     <>
-      <Back title='Explore Courses' />
+      <Back title='Đề tài thực tập' />
       <CoursesCard />
-      <OnlineCourses />
+      <Intern />
     </>
   )
 }

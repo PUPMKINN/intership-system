@@ -1,16 +1,16 @@
 import React from "react"
 import "./courses.css"
-import { online } from "../../dummydata"
+import { intern } from "../../datatest"
 import Heading from "../common/heading/Heading"
 
-const OnlineCourses = () => {
+const Intern = () => {
   return (
     <>
-      <section className='online'>
+      <section className='intern'>
         <div className='container'>
-          <Heading subtitle='COURSES' title='Browse Our Online Courses' />
+          <Heading subtitle='Vị trí thực tập' title='Đa dạng vị trí thực tập' />
           <div className='content grid3'>
-            {online.map((val) => (
+            {intern.map((val) => (
               <div className='box'>
                 <div className='img'>
                   <img src={val.cover} alt='Hình ảnh 2' />
@@ -27,4 +27,4 @@ const OnlineCourses = () => {
   )
 }
 
-export default OnlineCourses
+export default Intern
