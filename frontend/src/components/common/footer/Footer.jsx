@@ -75,7 +75,6 @@ const Footer = () => {
               <li>
                 <i className='fa fa-map'></i>
                 <l1> Cơ sở 1: 227 Nguyễn Văn Cừ, Phường 4, Quận 5, Thành phố Hồ Chí Minh</l1>
-
               </li>
               <li>
                 <i className='fa fa-phone-alt'>Hotline: </i>
